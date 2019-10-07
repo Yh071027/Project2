@@ -30,7 +30,7 @@ public class Client1{
 		phone.printInfo();
 	}
 	public static void main(String[] args){
-		Client client = new Client();
+		Client1 client = new Client1();
 		Factory factory = new HuaweiFactory();
 		client.buyPhone(factory.createPhone());
 		
